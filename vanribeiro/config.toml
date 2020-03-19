@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Van Ribeiro"
+theme = "vanribeiro"
+disqus = "vanribeiro-github-io"
+
+[Menus]
+    main = [
+        {Name = "Home", URL = "/blog"},
+        {Name = "Encontre-me!", URL = "/encontre-me.html"},
+        {Name = "Portfólio", URL = "/portfolio.html"},
+        {Name = "Currículo", URL = "/curriculo/curriculo-vanessa-ribeiro.html"}
+    ]
