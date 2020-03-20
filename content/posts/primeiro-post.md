@@ -1,7 +1,7 @@
 ---
 title: "Home Office Time"
 date: 2020-03-17T22:59:44-03:00
-draft: true
+draft: false
 tag: "home computer"
 ---
 
