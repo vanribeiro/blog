@@ -5,7 +5,7 @@ draft: true
 tag: "home computer"
 ---
 
-![Era para aparecer um Home Office](../static/img/home-../../../static/img/home-office-336378_1280.jpg)
+![Era para aparecer um Home Office](../static/img/home-office-336378_1280.jpg)
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc leo turpis, vehicula sed massa sed, placerat volutpat sem. Vestibulum varius non turpis ac lacinia. In sed elementum tellus. Ut viverra lorem a quam ornare consequat. Pellentesque quis tortor [velit](first-post.md). Praesent iaculis quis tellus non vulputate. Aliquam semper nisl et dapibus molestie. Pellentesque congue dolor non interdum condimentum. Fusce ac magna at ex porta vehicula ac nec elit. Sed sed tortor condimentum, efficitur enim ac, porta mi. Mauris cursus lorem vel erat molestie, sed venenatis lacus vulputate.
