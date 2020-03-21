@@ -1,31 +1,31 @@
 @import url("https://fonts.googleapis.com/css?family=Anton|Bebas+Neue|Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Anton|Bebas+Neue|Montserrat&display=swap");
-header {
+.header {
   background-color: #404040;
-  padding: 10px;
+  padding: 5px;
 }
 
-header h1 {
+.header-top h1 {
   text-transform: uppercase;
   font-size: 2.5em;
   text-shadow: 2px 2px 15px #1a1a1a;
 }
 
-header h1, ul li {
+.header-top h1, ul li {
   text-align: center;
 }
 
-header a {
+.header-top a {
   color: #B56A7A;
 }
 
-header ul {
+.header-top ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-header ul li {
+.header-top ul li {
   padding: 5px;
 }
 
@@ -34,21 +34,66 @@ nav ul li a:hover {
 }
 
 @media only screen and (min-width: 700px) {
-  header nav ul li {
+  .logo, .all-links {
+    width: 50%;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .all-links {
+    display: flex;
+    justify-content: right;
+  }
+
+  .header-top nav ul li {
     display: inline;
   }
 
-  header nav {
+  .header-top nav {
     text-align: center;
   }
+
+  .header-top {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
-.last-posts ul li {
+.last-posts ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-body, p, h1, h2, h3, h4, h5, h6, img, figure, figcaption {
+aside a {
+  font-weight: bold;
+}
+aside ul li {
+  text-align: left;
+}
+aside section {
+  padding: 10px 15px 5px 0px;
+}
+
+@media only screen and (min-width: 700px) {
+  aside {
+    border-left: thin solid gray;
+    margin-top: 25px;
+    padding: 10px 25px;
+  }
+  aside time {
+    color: #7a7a7a;
+    font-size: 12px;
+  }
+  aside ul li {
+    display: inline-block;
+  }
+}
+body, p, h1, h2, h3, h4, h5, h6,
+img, figure, figcaption, section {
   padding: 0;
   margin: 0;
 }
@@ -90,6 +135,49 @@ main article time {
   font-size: 12px;
   padding-top: 15px;
   padding-bottom: 25px;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.read-more a {
+  background-color: #404040;
+  border-radius: 5px;
+  color: #B56A7A;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.pagination-counting {
+  width: 100%;
+  text-align: center;
+}
+
+.summary {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 700px) {
+  .main-post, .main-posts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-post article, .main-posts .all-posts {
+    width: 70%;
+    margin-right: 25px;
+  }
+
+  .sidebar {
+    width: 30%;
+  }
+
+  .bio {
+    padding: 5px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

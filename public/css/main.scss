@@ -4,7 +4,8 @@
 @import 'styles/sidebar.scss';
 @import 'styles/variables.scss';
 
-body, p, h1, h2, h3, h4, h5, h6, img, figure, figcaption{
+body, p, h1, h2, h3, h4, h5, h6, 
+img, figure, figcaption, section{
     padding: 0;
     margin: 0;
 }
@@ -36,14 +37,60 @@ article a:hover{
     text-decoration: underline;
 }
 
+
 main article{
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
 main article time{
-    color: #7a7a7a;
+    color: $medium-gray;
     font-size: 12px;
     padding-top: 15px;
     padding-bottom: 25px;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+
+.read-more a{
+    background-color: $dark-gray;
+    border-radius: 5px;
+    color: $cassis;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.pagination-counting{
+    width: 100%;
+    text-align: center;
+}
+
+.summary{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+@media only screen and (min-width:700px){
+
+    .main-post, .main-posts{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-post article, .main-posts .all-posts{
+        width: 70%;
+        margin-right: 25px;
+    }
+
+    .sidebar{
+        width: 30%;
+    }
+
+    .bio{
+        padding: 5px;
+    }
+
 }

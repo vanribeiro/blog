@@ -1,5 +1,45 @@
-.last-posts ul li{
+.last-posts ul{
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+aside{
+    
+
+    a{
+        font-weight: bold;
+    }
+
+    ul li{
+        text-align: left;
+    }
+
+    section{
+        padding: 10px 15px 5px 0px;
+    }
+    
+}
+
+
+@media only screen and (min-width:700px){
+
+    aside{
+        border-left: thin solid gray;
+        margin-top: 25px;
+        padding: 10px 25px;
+
+        time{
+            color: $medium-gray;
+            font-size: 12px;
+        }
+
+        ul li {
+            display: inline-block;
+        }
+    }
+
+
+
+
 }

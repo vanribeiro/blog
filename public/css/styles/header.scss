@@ -1,31 +1,31 @@
 @import 'variables.scss';
 
-header{
+.header{
     background-color: $dark-gray;
-    padding: 10px;
+    padding: 5px;
 }
 
-header h1{
+.header-top h1{
     text-transform: uppercase;
     font-size: 2.5em;
     text-shadow: 2px 2px 15px #1a1a1a;
 }
 
-header h1, ul li{
+.header-top h1, ul li{
     text-align: center;
 }
 
-header a{
+.header-top a{
     color: $cassis;
 }
 
-header ul{
+.header-top ul{
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-header ul li{
+.header-top ul li{
     padding: 5px;
 }
 
@@ -36,13 +36,32 @@ nav ul li a:hover{
 
 @media only screen and (min-width:700px){
 
-    header nav ul li{
+    .logo, .all-links{
+        width: 50%;
+    }
+
+    .logo{
+        display: flex;
+    }
+
+    .all-links{
+        display: flex;
+        justify-content: right;
+    }
+
+    .header-top nav ul li{
         display: inline;
     }
 
-    header nav{
+    .header-top nav{
         text-align: center;
     }
 
+    .header-top{
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
 }
