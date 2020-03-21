@@ -1,17 +1,22 @@
-<header>
+<header class="header">
 	<div class="container">
-		<h1>
-			<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-		</h1>
-	{{ with .Site.Menus.main }}
-		<nav>
-			<ul>
-				{{ range . }}
-				<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-				{{ end }}
-			</ul>
-		</nav>
-	{{ end }}
+		<div class="header-top">
+			<div class="logo">
+				<h1>
+					<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+				</h1>
+			</div>
+		{{ with .Site.Menus.main }}
+			<div class="all-links">
+				<nav>
+					<ul>
+						{{ range . }}
+						<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+						{{ end }}
+					</ul>
+				</nav>
+			</div>
+		{{ end }}
+		</div>
 	</div>
-	
 </header>

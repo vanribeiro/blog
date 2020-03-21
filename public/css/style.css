@@ -33,6 +33,21 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+@media only screen and (min-width: 700px) {
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav {
+    text-align: center;
+  }
+}
+.last-posts ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 body, p, h1, h2, h3, h4, h5, h6, img, figure, figcaption {
   padding: 0;
   margin: 0;
@@ -52,6 +67,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Anton", sans-serif;
   letter-spacing: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 a {
@@ -61,6 +78,18 @@ a {
 
 article a:hover {
   text-decoration: underline;
+}
+
+main article {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+main article time {
+  color: #7a7a7a;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-bottom: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

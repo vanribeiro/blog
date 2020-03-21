@@ -1,14 +1,40 @@
 <aside>
-	<div>
-		<div>
-			<h3>ÚLTIMOS POSTS</h3>
-		</div>
-		<div class="last-posts">
-			<ul>
-				{{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-				<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-				{{ end }}
-			</ul>
-		</div>
+	<div class="bio">
+		<section>
+			<figure>
+				<img class="img-fluid" src="https://vanribeiro.github.io/img/Minha%20foto.png" alt="Van Ribeiro">
+			</figure>
+		<header class="bio-title">
+			<h2>VAN RIBEIRO</h2>
+		</header>
+			<main>
+				<p>Uma desenvolvedora web em frequente construção,
+				que gosta de unir criatividade e tecnologia. </p>
+			</main>
+		</section>
 	</div>
+	<div class="last-posts">
+		<section>
+			<header>
+				<h2>ÚLTIMOS POSTS</h2>
+			</header>
+			<main>
+					<div class="last-posts">
+				<ul>
+					{{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+					<li>
+						<section class="summary-section">
+							<div class="header-section">
+								<a href="{{ .RelPermalink }}">{{ .Title }}</a> -
+								<time>{{ .Date.Format "02/01/2006" }}</time>
+							</div>
+						</section>
+					</li>
+					{{ end }}
+				</ul>
+			</div>
+			</main>
+	</section>
+	</div>
+
 </aside>

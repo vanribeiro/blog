@@ -6,8 +6,7 @@ disqus = "vanribeiro-github-io"
 
 [Menus]
     main = [
-        {Name = "Home", URL = "/blog"},
-        {Name = "Encontre-me!", URL = "/encontre-me.html"},
-        {Name = "Portfólio", URL = "/portfolio.html"},
-        {Name = "Currículo", URL = "/curriculo/curriculo-vanessa-ribeiro.html"}
+        {Name = "Encontre-me!", URL = "https://vanribeiro.github.io/encontre-me.html"},
+        {Name = "Portfólio", URL = "https://vanribeiro.github.io/portfolio.html"},
+        {Name = "Currículo", URL = "https://vanribeiro.github.io/curriculo/curriculo-vanessa-ribeiro.html"}
     ]
