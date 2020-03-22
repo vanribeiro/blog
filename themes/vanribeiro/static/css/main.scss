@@ -78,8 +78,9 @@ main article time{
 }
 
 pre{
-    overflow-x: scroll;
+    word-wrap: break-word;
 }
+
 
 @media only screen and (min-width:800px){
 
@@ -102,12 +103,5 @@ pre{
         padding: 5px;
     }
 
-}
-
-@media only screen and (min-width:1200px){
-
-    pre{
-        overflow-x: hidden;
-    }
 
 }
