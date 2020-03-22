@@ -21,7 +21,8 @@ Sed imperdiet feugiat porta. Donec lacinia velit in ultricies euismod. Vestibulu
 
     <section>
         <figure>
-            <img class="img-fluid" src="https://vanribeiro.github.io/img/Minha%20foto.png" 
+            <img class="img-fluid" 
+            src="https://vanribeiro.github.io/img/Minha%20foto.png" 
             alt="Van Ribeiro">
         </figure>
         <header class="bio-title">
