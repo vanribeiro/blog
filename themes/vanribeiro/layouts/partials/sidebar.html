@@ -19,7 +19,6 @@
 				<h2>ÚLTIMOS POSTS</h2>
 			</header>
 			<main>
-					<div class="last-posts">
 				<ul>
 					{{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 					<li>
@@ -32,7 +31,6 @@
 					</li>
 					{{ end }}
 				</ul>
-			</div>
 			</main>
 	</section>
 	</div>

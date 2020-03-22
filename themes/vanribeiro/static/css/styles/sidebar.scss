@@ -21,13 +21,27 @@ aside{
     
 }
 
+@media only screen and (min-width:600px){
 
-@media only screen and (min-width:700px){
+    .bio, .last-posts{
+        width: 45%;
+    }
+
+    aside{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+
+@media only screen and (min-width:800px){
 
     aside{
         border-left: thin solid gray;
         margin-top: 25px;
         padding: 10px 25px;
+        display: block;
 
         time{
             color: $medium-gray;
@@ -37,9 +51,11 @@ aside{
         ul li {
             display: inline-block;
         }
+
+        .bio, .last-posts{
+            width: 100%;
+        }
     }
-
-
 
 
 }

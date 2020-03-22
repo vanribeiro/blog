@@ -1,0 +1,40 @@
+.pagination{
+    padding: 30px 5px;
+    margin: 25px 5px;
+    border-bottom: 1px solid $dark-gray;
+
+    .pagination-counting{
+        margin: 30px 5px;
+    }
+
+    .pagination-counting .page-number, .next-page, .before-page{
+        color: $cassis;
+        background-color: $dark-gray;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+
+    .pagination-buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pagination-buttons .prev, .pagination-buttons .next{
+        margin: 15px 0px;
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (min-width:800px){
+
+    .pagination{
+        border-bottom: none;
+    }
+
+    .pagination-buttons .prev, .pagination-buttons .next{
+        font-size: 14px;
+        margin: 15px 0px;
+    }
+}

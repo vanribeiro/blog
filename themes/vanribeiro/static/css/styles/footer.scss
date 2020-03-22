@@ -1,0 +1,49 @@
+@import 'variables.scss';
+
+footer, footer a{
+    color: $cassis;
+}
+
+footer{
+    padding: 25px 5px;
+    margin-top: 25px;
+    text-align: center;
+    background-color: $dark-gray;
+
+    .nav-footer{
+        padding: 15px;
+    }
+    
+    .nav-footer a{
+        display: block;
+        padding: 5px;
+    }
+
+    .nav-footer a:hover{
+        text-decoration: underline;
+    }
+
+    .social-media-icon svg{
+        fill: $cassis;
+    } 
+
+    .social-media-icon svg:hover{
+        fill: $white-gray;
+    }
+
+
+}
+
+@media only screen and (min-width:800px){
+
+    footer{
+
+        .nav-footer{
+            display: inline-flex;
+        }
+
+        .nav-footer a{
+            padding: 15px;
+        }
+    }
+}

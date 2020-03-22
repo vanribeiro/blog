@@ -1,11 +1,18 @@
-<div>
-{{ if .Paginator.HasPrev }}
-	<a href="{{ .Paginator.Prev.URL }}">Página Anterior</a>
-{{ end }}
-<div class="pagination-counting">
-	{{ .Paginator.PageNumber }} de {{ .Paginator.TotalPages }}
-</div>
-{{ if .Paginator.HasNext }}
-	<a href="{{ .Paginator.Next.URL }}">Próxima Página</a>
-{{ end }}
+<div class="pagination">
+	<div class="pagination-counting">
+		<span class="page-number">{{ .Paginator.PageNumber }}</span> de
+		<span class="page-number">{{ .Paginator.TotalPages }}</span>
+	</div>
+	<div class="pagination-buttons">
+		<div class="prev">
+			{{ if .Paginator.HasPrev }}
+			<a class="before-page" href="{{ .Paginator.Prev.URL }}">Página Anterior</a>
+			{{ end }}
+		</div>
+		<div class="next">
+			{{ if .Paginator.HasNext }}
+			<a class="next-page" href="{{ .Paginator.Next.URL }}">Próxima Página</a>
+			{{ end }}
+		</div>
+	</div>
 </div>
