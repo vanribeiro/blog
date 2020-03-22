@@ -19,20 +19,17 @@ Sed imperdiet feugiat porta. Donec lacinia velit in ultricies euismod. Vestibulu
 
 ```html
 
-    <section>
-        <figure>
-            <img class="img-fluid" 
-            src="https://vanribeiro.github.io/img/Minha%20foto.png" 
-            alt="Van Ribeiro">
-        </figure>
-        <header class="bio-title">
-            <h2>VAN RIBEIRO</h2>
-        </header>
-        <main>
-            <p>Uma desenvolvedora web em frequente construção,
-            que gosta de unir criatividade e tecnologia. </p>
-        </main>
-    </section>
+<section>
+    <header class="bio-title">
+        <h2>VAN RIBEIRO</h2>
+    </header>
+    <main>
+        <p>Uma desenvolvedora web 
+            em frequente construção,
+            que gosta de unir criatividade e
+           tecnologia.</p>
+    </main>
+</section>
 
 ```
 
