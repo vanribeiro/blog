@@ -2,17 +2,38 @@
 title: "Era para aparecer um Home Office"
 date: 2020-03-17T22:59:44-03:00
 draft: false
-tag: "home computer"
+tag: [home, computer]
 ---
-
-![Era para aparecer um Home Office](/themes/vanribeiro/images/screenshot.png)
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc leo turpis, vehicula sed massa sed, placerat volutpat sem. Vestibulum varius non turpis ac lacinia. In sed elementum tellus. Ut viverra lorem a quam ornare consequat. Pellentesque quis tortor [velit](first-post.md). Praesent iaculis quis tellus non vulputate. Aliquam semper nisl et dapibus molestie. Pellentesque congue dolor non interdum condimentum. Fusce ac magna at ex porta vehicula ac nec elit. Sed sed tortor condimentum, efficitur enim ac, porta mi. Mauris cursus lorem vel erat molestie, sed venenatis lacus vulputate.
 
 # Lorem
 
-Maecenas venenatis fermentum diam ut ornare. Pellentesque eu nunc mi. Aliquam tincidunt, libero commodo pretium fringilla, tortor elit ornare ante, ac facilisis magna sapien sed erat. Vivamus et mauris convallis, volutpat orci at, bibendum lectus. Nunc maximus interdum venenatis. Sed imperdiet feugiat porta. Donec lacinia velit in ultricies euismod. Vestibulum sed euismod ipsum. Cras libero enim, maximus sed urna in, dignissim gravida mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas egestas venenatis consequat. Pellentesque feugiat malesuada ante, in congue libero. Suspendisse orci purus, rutrum sed orci sit amet, dictum convallis nisl.
+Maecenas venenatis fermentum diam ut ornare. Pellentesque eu nunc mi. Aliquam tincidunt, libero commodo pretium fringilla, tortor elit ornare ante, ac facilisis magna sapien sed erat. Vivamus et mauris convallis, volutpat orci at, bibendum lectus. [Nunc maximus interdum venenatis](02-segundo-post.md). 
+
+
+> "Cras libero enim, maximus sed urna in, dignissim gravida mauris. Sed imperdiet feugiat porta. Donec lacinia velit in ultricies euismod. Vestibulum sed euismod ipsum. Cras libero enim, maximus sed urna in, dignissim gravida mauris. Orci."
+
+Sed imperdiet feugiat porta. Donec lacinia velit in ultricies euismod. Vestibulum sed euismod ipsum. Cras libero enim, maximus sed urna in, dignissim gravida mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas egestas venenatis consequat. Pellentesque feugiat malesuada ante, in congue libero. Suspendisse orci purus, rutrum sed orci sit amet, dictum convallis nisl.
+
+```html
+
+    <section>
+        <figure>
+            <img class="img-fluid" src="https://vanribeiro.github.io/img/Minha%20foto.png" 
+            alt="Van Ribeiro">
+        </figure>
+        <header class="bio-title">
+            <h2>VAN RIBEIRO</h2>
+        </header>
+        <main>
+            <p>Uma desenvolvedora web em frequente construção,
+            que gosta de unir criatividade e tecnologia. </p>
+        </main>
+    </section>
+
+```
 
 ## Lorem
 

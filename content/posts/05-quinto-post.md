@@ -2,7 +2,7 @@
 title: "post cinco"
 date: 2020-03-17T22:59:44-03:00
 draft: false
-tag: "home computer"
+tag: [home, computer]
 ---
 
 ![Era para aparecer um Home Office](/static/img/home-office-336378_1280.jpg)
