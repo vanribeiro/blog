@@ -77,7 +77,7 @@ main article time{
     padding-bottom: 15px;
 }
 
-.highlight pre{
+pre{
     overflow-x: scroll;
 }
 
@@ -106,7 +106,7 @@ main article time{
 
 @media only screen and (min-width:1200px){
 
-    .highlight pre{
+    pre{
         overflow-x: hidden;
     }
 
