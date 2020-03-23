@@ -1,0 +1,35 @@
+{{ define "main" }}
+	<main class="main-posts page-404">
+		<div class="page-notification">
+			<hgroup>
+				<h3>Ops...</h3>
+				<h1>Página não encontrada...</h1>
+				
+			</hgroup>
+		</div>
+		<div class="last-posts-404">
+			<p>Mas você pode ler os últimos posts:</p>
+			{{ range first 3 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+				<section>
+					<div>
+						<h1>
+							<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+						</h1>
+						<time>{{ .Date.Format "02/01/2006" }}</time>
+						<div class="summary">
+							{{ .Summary }}
+					</div>
+					<div class="read-more">
+						{{ if .Truncated }}
+							<a href="{{ .RelPermalink }}">Leia mais...</a>
+						{{ end }}
+					</div>
+					</div>
+				</section>
+			{{ end }}
+		</div>
+		<div class="sidebar">
+			{{ partial "sidebar.html" . }}
+		</div>
+	</main>
+{{ end }}
