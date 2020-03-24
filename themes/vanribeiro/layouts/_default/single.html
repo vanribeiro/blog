@@ -1,7 +1,17 @@
 {{ define "main" }}
 	<main class="main-post">
 		<article>
-			<h1>{{ .Title }}</h1>
+			<h1 class="post-title">{{ .Title }}</h1>
+			<!-- AddToAny BEGIN -->
+			<div class="share-post">
+				<a href="https://www.addtoany.com/share#url=https%3A%2F%2Fblog-vanribeiro.netlify.com%2F&amp;title=Blog%20Van%20Ribeiro" target="_blank"><img class="share-social-media-btn" src="https://static.addtoany.com/buttons/a2a.svg"></a>
+				<a href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblog-vanribeiro.netlify.com%2F&amp;linkname=Blog%20Van%20Ribeiro" target="_blank"><img class="share-social-media-btn" src="https://static.addtoany.com/buttons/facebook.svg"></a>
+				<a href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblog-vanribeiro.netlify.com%2F&amp;linkname=Blog%20Van%20Ribeiro" target="_blank"><img class="share-social-media-btn" src="https://static.addtoany.com/buttons/twitter.svg"></a>
+				<a href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fblog-vanribeiro.netlify.com%2F&amp;linkname=Blog%20Van%20Ribeiro" target="_blank"><img class="share-social-media-btn" src="https://static.addtoany.com/buttons/whatsapp.svg"></a>
+				<a href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fblog-vanribeiro.netlify.com%2F&amp;linkname=Blog%20Van%20Ribeiro" target="_blank"><img class="share-social-media-btn" src="https://static.addtoany.com/buttons/linkedin.svg"></a>
+				<a href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fblog-vanribeiro.netlify.com%2F&amp;linkname=Blog%20Van%20Ribeiro" target="_blank"><img class="share-social-media-btn" src="https://static.addtoany.com/buttons/email.svg"></a>
+			</div>
+			<!-- AddToAny END -->
 			<time>{{ .Date.Format "02.01.2006 15:04" }}</time>
 			<div>
 				{{ .Content }}
@@ -21,6 +31,9 @@
 				{{ partial "disqus.html" . }}
 			</div>
 			{{ end }}
+			<div class="author">
+				<p>Postado por <a href="https://vanribeiro.github.io/">Van Ribeiro</a></p>
+			</div>
 		</article>
 		<div class="sidebar">
 			{{ partial "sidebar.html" . }}

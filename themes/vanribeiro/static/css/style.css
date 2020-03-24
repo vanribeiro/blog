@@ -71,6 +71,10 @@ nav ul li a:hover {
 }
 
 @media only screen and (min-width: 800px) {
+  .header-top h1 {
+    font-size: 3.5em;
+  }
+
   .logo, .all-links {
     width: 50%;
   }
@@ -102,7 +106,6 @@ nav ul li a:hover {
 .pagination {
   padding: 30px 5px;
   margin: 25px 5px;
-  border-bottom: 1px solid #404040;
 }
 .pagination .pagination-counting {
   margin: 30px 5px;
@@ -278,7 +281,35 @@ main article time {
   padding-bottom: 15px;
 }
 
+.main-post article img {
+  max-width: 100%;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.author {
+  padding-top: 25px;
+}
+
+.share-post .share-social-media-btn {
+  width: 18px;
+  height: 18px;
+  padding: 10px;
+  background-color: #B56A7A;
+}
+
 @media only screen and (min-width: 800px) {
+  .share-post .share-social-media-btn {
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    background-color: #B56A7A;
+  }
+
+  .post-title {
+    font-size: 2em;
+  }
+
   .main-post, .main-posts {
     width: 100%;
     display: flex;
